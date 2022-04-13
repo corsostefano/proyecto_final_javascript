@@ -1,0 +1,107 @@
+body{
+    main{
+        .modal_container{
+            position: fixed;
+            z-index: 1000;
+            width: 100%;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            background: rgba(255, 255, 255, 0.495);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            visibility: hidden;
+        }
+        .modal_container.active{
+            position: absolute;
+            z-index: 1000;
+            width: 100%;
+            height: 1000vh;
+            top: 0;
+            left: 0;
+            background: rgba(255, 255, 255, 0.495);
+            display:block;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            visibility: hidden;
+        }
+        div{
+            .modal_carrito{
+                width: 50%;
+                height: auto;
+                background-color: rgb(2, 2, 97);
+                padding: 20px;
+                border-radius: 10px;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                position: relative;
+                transition: transform 0.8s;
+                transform: translateY(0%);
+            }
+            .modal_carrito.active{
+                width: 90%;
+                max-width: 1000px;
+                padding: 40px 20px;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 20px;
+            }
+            .close{
+                position: absolute;
+                top: 5px;
+                right: 10px;
+                display: inline-block;
+                width: 25px;
+                height: 25px;
+                background-color: #e83283;
+                line-height: 25px;
+                cursor: pointer;
+                border-radius: 50%;
+
+            }
+            .modal_close{
+                transform: translateY(-200%);
+            }
+            .btn_comprar{
+                background-color: #e83283;
+                cursor: pointer;
+                &:hover{
+                    background-color: #f990dc;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        main{
+            div{
+                .modal_carrito{
+                    width: 550px;
+                    display: flex;
+                  
+                }
+        }
+    }
+}
+}
+@media screen and (max-width:600px){
+    body{
+        main{
+            div{
+                .modal_carrito{
+                    width: 400px;
+                  
+                }
+        }
+    }
+}
+}

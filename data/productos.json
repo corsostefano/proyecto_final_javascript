@@ -1,0 +1,124 @@
+
+    [
+        {
+            "id": 1,
+            "precio": 121499,
+            "title": "Samsung Galaxy S21",
+            "image": "img/1.png"
+        },
+        {
+            "id": 2,
+            "precio":  39999,
+            "title": "Samsung Galaxy A03s",
+            "image": "img/2.png"
+           
+        },
+        {
+            "id": 3,
+            "precio": 395129,
+            "title": "Apple Iphone 13 pro",
+            "image": "img/3.png"
+           
+        },
+        {
+            "id": 4,
+            "precio": 69999,
+            "title": "Motorola Edge 20 lite",
+            "image": "img/4.png"
+           
+        },
+        {
+            "id": 5,
+            "precio":54999,
+            "title": "Xiaomi Redmi Note 10s dual",
+            "image": "img/5.png"
+        },
+        {
+            "id": 6,
+            "precio":74990,
+            "title": "Canon PowerShot sx540",
+            "image": "img/6.png"
+        },
+        {
+            "id": 7,
+            "precio":455791,
+            "title": "Nikon kit d7500",
+            "image": "img/7.png"
+      
+        },
+        {
+            "id": 8,
+            "precio": 455791,
+            "title": "Sony H300 Compacta",
+            "image": "img/8.png"
+        },
+        {
+            "id": 9,
+            "precio":6388,
+            "title": "kodax Sport Sx540",
+            "image": "img/9.png"
+        },
+        {
+            "id": 10,
+            "precio":10999,
+            "title": "Samsung St64 Compacta",
+            "image": "img/10.png"
+        },
+        {
+            "id": 11,
+            "precio":89999,
+            "title": "Microsoft Xbox Serie S",
+            "image": "img/11.png"
+       
+        },
+        {
+            "id": 12,
+            "precio":207999,
+            "title": "Sony Playstation 5",
+            "image": "img/12.png"
+        },
+        {
+            "id": 13,
+            "precio":62999,
+            "title": "Hp Notebook 15-DW1080LA",
+            "image": "img/13.png"
+        },
+        {
+            "id": 14,
+            "precio":76999,
+            "title": "Exo Notebook Smart XL4-S3542",
+            "image": "img/14.png"
+        },
+        {
+            "id": 15,
+            "precio":91999,
+            "title": "Lenovo Notebook IdeaPad 15IML05",
+            "image": "img/15.png"
+        },
+        {
+            "id": 16,
+            "precio":38999,
+            "title": "Dell Notebook Latitude 3190",
+            "image": "img/16.png"
+        },
+        {
+            "id": 17,
+            "precio":30399,
+            "title": "Philco Smart TV PLD32HS9A1 LED HD 32",
+            "image": "img/17.png"
+        },
+        {
+            "id": 18,
+            "precio":83999,
+            "title": "Samsung Smart TV Series 7 UN50TU7000GCZB LED 4K 50",
+            "image": "img/18.png"
+        },
+        {
+            "id": 19,
+            "precio":30499,
+            "title": "Rca Smart TV AND32Y LED HD 32",
+            "image": "img/19.png"
+
+        }
+        
+    ]

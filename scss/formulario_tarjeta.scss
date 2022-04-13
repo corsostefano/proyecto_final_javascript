@@ -1,0 +1,121 @@
+//-----------------//
+//---Formulario de la tarjeta---//
+//---------------//
+body{
+    main{
+        div{
+            div{
+               .formulario_tarjeta{
+                   background-color: white;
+                   width: 100%;
+                   padding: 150px 30px 30px 30px; 
+                   max-width: 700px;
+                   border-radius: 10px;
+                   position: relative;
+                   top: -150px;
+                   z-index: 1;
+                   clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); 
+                   transition: clip-path .3s ease-out;
+                }
+               .formulario_tarjeta.active{
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+                }
+                div{
+                    .label_formulario{
+                        display: block;
+                        color: #7d8994;
+                        margin-bottom: 5px;
+                        font-size: 16px;
+                    }
+                    .input_formulario{
+                        border: 2px solid #ced6e0;
+                        font-size: 16px;
+                        height: 50px;
+                        width: 100%;
+                        padding: 5px 12px;
+                        transition: .3s ease all;
+                        border-radius:  5px;
+                        margin-bottom: 20px;
+                        text-transform: uppercase;
+                        &:hover{
+                            border: 2px solid #f990dc;
+                        }
+                    }
+                    div{
+                        div{
+                            .select_formulario{
+                                border: 2px solid #ced6e0;
+                                font-size: 16px;
+                                height: 50px;
+                                width: 100%;
+                                padding: 5px 12px;
+                                transition: .3s ease all;
+                                border-radius:  5px;
+                                &:hover{
+                                    border: 2px solid #f990dc;
+                                }
+                                
+                            }
+                        }
+                    }
+                    .button_formulario{
+                        border: 2px solid #ced6e0;
+                        font-size: 16px;
+                        height: 50px;
+                        width: 100%;
+                        padding: 5px 12px;
+                        transition: .3s ease all;
+                        border-radius:  5px;
+                    }
+                }
+                form{
+                    .flexbox_formulario{
+                        display: flex;
+                        justify-content: space-between;
+    
+                    }
+                    div{
+                        .expira{
+                            width: 100%;
+                        }
+                        div{
+                            .flexbox_mes_year{
+                                display: flex;
+                        justify-content: space-between;
+                            }
+                            div{
+                                .grupo_select{
+                                    width: 100%;
+                                    margin-right: 15px;
+                                    position: relative;
+                                }
+                                div{
+                                    .select_formulario{
+                                        -webkit-apperance:none 
+                                    }
+                                    
+                                }
+                            }
+                        }
+                        
+                    }
+                    .button_formulario{
+                        border: none;
+                        padding: 10px;
+                        font-size: 22px;
+                        color: white;
+                        background-color: #e83283;
+                        cursor: pointer;
+                        text-decoration: none;
+                        align-items: center;
+                        &:hover{
+                            background-color:  #f990dc;
+                        }
+                    }
+
+                }
+                
+            }
+        }
+    }
+}

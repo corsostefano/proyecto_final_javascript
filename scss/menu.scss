@@ -1,0 +1,45 @@
+body{
+    nav{
+        div{
+            .contenedor_icono_carrito{
+                display: flex;
+                width: 100px;
+                justify-content: space-between;
+                
+            }
+            div{
+                ul{
+                    list-style: none;
+                }
+                li{
+                    .contador{
+                        display: flex;
+                        margin-left: 55px;
+                        margin-top: -35px;
+                        position: absolute;
+                        color: white;
+                        font-weight: bold;
+                    }
+                    .contador.active{
+                        display: none;
+                    }
+                    a{
+                        span{
+                            .icono_carrito{
+                                width: 45px;
+                                margin-top: -10px;
+                                position: absolute;
+                                color: white;
+                                
+                            }
+                        }
+                    }
+                    
+                }
+                .contenedor_icono_carrito{
+                    width: 150px;
+                }
+            }
+        }
+    }
+}
