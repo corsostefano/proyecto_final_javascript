@@ -356,3 +356,6 @@ body main div div form .button_formulario {
   align-items: center; }
   body main div div form .button_formulario:hover {
     background-color: #f990dc; }
+
+body main div .copyright {
+  color: white; }
